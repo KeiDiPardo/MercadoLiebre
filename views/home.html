@@ -5,38 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre Home</title>
-   
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7633eb6bf7.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <img src="/images/logo-mercado-liebre.svg" alt="">
-        <nav>
-            <p>Buscar productos, marcas</p>
-        </nav>
-   
-<p>Comprá en cuotas y tarjetas de crédito</p>
+    <header class="headerFondo">
+        <img class="header__logo" src="/images/logo-mercado-liebre.svg" alt="">
+        <ul class="headerBuscarProductos">
+            <h3>Buscar productos, marcas</h3></ul>
+        <button class="header__icono">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+    
+    <h4 class="icono__mano">
+        <i class="fa-solid fa-hand-holding-dollar"></i>
+        Compra en cuotas y sin tarjeta de crédito
+    </h4>
 <nav>
-    <ul>
-        <li><a href=""></a>Ofertas</li>
-        <li><a href=""></a>Tiendas Oficiales</li>
-        <li><a href=""></a>Vender</li>
-        <li><a href=""></a>Ayuda</li>
-    </ul>
-    <ul>
-        <li><a href=""></a>Creá tu cuenta</li>
-        <li><a href=""></a>Ingresá</li>
-        <li><a href=""></a>Mis compras</li>
-    </ul>
+ 
+    <h4>
+        Ofertas <br>
+        Tiendas Oficiales <br>
+        Vender <br>
+        Ayuda
+    </h4>
+   
+    <h4>
+        Creá tu cuenta<i class="fa-solid fa-id-card"></i> <br>
+        Ingresá<i class="fa-solid fa-right-to-bracket"></i> <br>
+       Mis compras<i class="fa-solid fa-basket-shopping"></i>
+    </h4>
+        
+    
 </nav>
-    </header>
-  
-    <main>
+
+<button class="header__burger-menu">
+    <i class="fas fa-bars"></i>
+</button>
+</header>
+    <main class="main__producos">
         <!--banner  -->
         <section>
             <img src="/images/img-home-banner.jpg" alt=""width="100%">
         </section>
-<section>
+<section class="Section_Ultimavisita">
     <!-- ultima visita -->
+    <h2>Basado en tu última visita</h2>
 </section>
 <article>
     <img src="/images/img-cafetera-moulinex.jpg" alt="cafetera"width="100%">
@@ -63,30 +78,41 @@
     <h4>SmartTv Samsung 43"</h4>
 </article>
 
-<section>
-    <!-- seccion ofertas -->
-</section>
-    </main>
+      </main>
+
+        <!-- seccion ofertas -->
+
     <footer>
-<article>
+<article class="article__ofertas">
+<div class="div__iconos">
+    <i class="fa-solid fa-credit-card"></i>
+</div>
     <h4>
         Pagá con tarjeta o en efectivo
     </h4>
-    <p>
-        Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
-        puntos de pago. ¡Y siempre es seguro!  
-    </p>
-</article>
-<article>
+    <p> Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+
+    <div class="div__iconos">
+        <i class="fa-solid fa-gift"></i>
+    </div>
+    <h4>
+        Envío gratis desde los $2.500
+    </h4>
+    <p>Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de productos. Es un beneficio de MercadoPuntos</p>
+
+    <div class="div__iconos">
+        <i class="fa-solid fa-user-shield"></i> 
+    </div>
     <h4>
         Seguridad, de principio a fin
     </h4>
-    <p>
-        ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
-        porque estás siempre protegid@. 
+    <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@. 
     </p>
+
+    <h4>
+        Copyright © 1999-2020 MercadoLiebre S.R.L.
+    </h4>
 </article>
-<p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
     </footer>
 </body>
 </html>

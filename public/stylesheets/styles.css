@@ -1,0 +1,60 @@
+   body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+   }
+   .headerFondo{
+    width: 100%;
+    margin: 0%;
+    background-color:#EAC926 ;
+   
+    }
+    .header__logo{
+        width: 180px;
+        margin: 30px;
+    }
+     /* buscar productos, marcas */
+     .headerBuscarProductos{
+        width: 60%;
+        background-color: white;
+        border: solid 1px #666;
+        border-radius: 4%;
+        color:#666;
+        font-size: 14px;
+        padding: 1px;
+         }
+         .header__icono{
+            background-color: white;
+            border: solid 2px #666;
+           }
+
+         .header__burger-menu{
+            background-color: #1259c3;
+            margin: 0 auto 30px;
+            display: block;
+            border: none;
+            width: 40px;
+            height: 40px;
+            font-size: 22px;
+            color: white;
+            border-radius: 10%;
+        }
+        
+        .icono__mano{
+        text-align: center;
+        }
+
+    .article__ofertas{
+        text-align: center;
+        margin-top: 10%;
+    }
+    .div__iconos{
+      color:#1259c3;
+       font-size: 28px;
+    }
+
+.Section_Ultimavisita{
+    text-align: center;
+   
+}
+
+ 
