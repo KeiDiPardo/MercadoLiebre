@@ -26,6 +26,9 @@
             background-color: white;
             border: solid 2px #666;
            }
+           .header__menu{
+           display: none;
+           }
 
          .header__burger-menu{
             background-color: #1259c3;
@@ -52,9 +55,51 @@
        font-size: 28px;
     }
 
-.Section_Ultimavisita{
+.home__main__section{
     text-align: center;
    
 }
+.home__main{
+    background-color: white;
+}
+.home__main__article--info{
+    border-top: 2px solid #ebebeb;
+    padding: 15px;
+}
+.home__main__article--info i{
+    border-radius: 50%;
+    border: solid 1px #39b54a;
+    color: #39b54a;
+    padding: 5px;
+}
+.home__main__article--info p{
+    color: #39b54a;
+    font-size: 18px;
+}
+.home__main__article--info h4{
+    color:  #666;
+    display: none;
+}
+/* tablet */
+@media (min-width:361px){
+    .home__main__article--info h4{
+        color:  #666;
+        display: block;
+         }
+}
+/* deskop */
+@media (min-width:769px){
+    .home__main__article--info h4{
+        color:  #666;
+        display: block;
+    }
+}
 
- 
+.home__main__article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+@media (min-width:361px){
+    .header__menu{
+        display: block;
+        }
+}
